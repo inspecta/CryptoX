@@ -3,7 +3,7 @@ import './App.css';
 import Crytpos from './Components/Crytpos';
 import Crypto from './Components/Crypto';
 import NavBar from './Components/NavBar';
-import Search from './Components/Search';
+import DetailsHeader from './Components/DetailsHeader';
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
         path="/crypto-details"
         element={(
           <>
-            <Search />
+            <DetailsHeader />
             <Crypto />
           </>
         )}
