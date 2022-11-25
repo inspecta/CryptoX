@@ -33,7 +33,7 @@ const CryptoSlice = createSlice({
     [FetchCryptos.fulfilled]: (state, action) => {
       state.status = 'success';
       state.cryptos = [
-        ...state.cryptos, action.payload.data,
+        ...state.cryptos, action.payload.data.filter((i) => i.rank <= 50),
       ];
     },
 
