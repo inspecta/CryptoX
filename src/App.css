@@ -86,6 +86,7 @@ body {
   border: 1px solid var(--color1);
   border-radius: 5px;
   margin: auto;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.5);
 }
 
 .header-detail {
@@ -96,13 +97,14 @@ body {
 }
 
 .logo-header-detail {
-  width: 60%;
+  width: 70%;
   justify-content: space-between;
 }
 
 .fa {
   color: #fff;
   cursor: pointer;
+  font-size: 50px;
 }
 
 .right-side {
@@ -119,8 +121,7 @@ body {
 }
 
 .logo {
-  width: 70%;
-  mix-blend-mode: color-burn;
+  width: 50%;
   border-radius: 10px;
 }
 
@@ -316,16 +317,24 @@ table {
 
 .search {
   width: 100%;
-  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border-bottom: 1px solid rgb(0, 255, 0, 0.5);
+  border-top: 1px solid rgb(0, 255, 0, 0.5);
 }
 
 .search > input {
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 0;
   border: none;
   outline: none;
-  width: 50%;
+  width: 60%;
   margin: auto;
+}
+
+.search > input::placeholder {
+  color: var(--color2);
 }
 
 .search-msg {
@@ -338,14 +347,14 @@ table {
 }
 
 .failure {
-  background: rgb(252, 197, 197);
-  color: red;
+  background: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 .success {
   background: #00be3f;
   color: #fff;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 @media screen and (min-width: 768px) {

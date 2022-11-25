@@ -1,0 +1,457 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders without crashing 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <header
+        class="header flex"
+      >
+        <div
+          class="logo-header flex"
+        >
+          <div
+            class="logo flex"
+          >
+            <span
+              class="back"
+            >
+              <span
+                class="back-txt white"
+              >
+                <img
+                  alt="Logo"
+                  class="logo"
+                  src="logo_crypto.png"
+                />
+              </span>
+            </span>
+          </div>
+        </div>
+        <div
+          class="right-side flex"
+        >
+          <span
+            class="audio"
+          >
+            <i
+              aria-hidden="true"
+              class="fa fa-microphone"
+            />
+          </span>
+          <span
+            class="settings"
+          >
+            <i
+              aria-hidden="true"
+              class="fa fa-cog"
+            />
+          </span>
+        </div>
+      </header>
+      <div
+        class="cryptos-container"
+      >
+        <div
+          class="wrapper flex"
+        >
+          <div
+            class="bg-wrapper"
+          />
+          <div
+            class="wrapper-content p-two"
+          >
+            <h4
+              class="white left h-one"
+            >
+              CYRPTO CURRENCIES
+            </h4>
+            <p
+              class="white left"
+            >
+               
+              Cyrptos
+            </p>
+          </div>
+        </div>
+        <div
+          class="search"
+        >
+          <input
+            name="search"
+            placeholder="Search..."
+            type="text"
+            value=""
+          />
+        </div>
+        <h4
+          class="white p-two"
+        >
+          CRYPTO CURRENCY STATS
+        </h4>
+        <p
+          class="search-msg"
+          style="display: none;"
+        >
+          No Cyrptos Found.
+        </p>
+        <div
+          class="crypto-details flex"
+        >
+          <div>
+            <div
+              class="load-spinner"
+            >
+              <span
+                size="500"
+                style="display: inherit; position: relative; font-size: 0px; top: 20px; left: 20px; width: 60px; height: 60px;"
+              >
+                <span
+                  style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.12s infinite ease-in-out; top: 20px; left: 0px;"
+                />
+                <span
+                  style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.24s infinite ease-in-out; top: 13.636363636363637px; left: 13.636363636363637px; transform: rotate(-45deg);"
+                />
+                <span
+                  style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.36s infinite ease-in-out; top: 0px; left: 20px; transform: rotate(90deg);"
+                />
+                <span
+                  style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.48s infinite ease-in-out; top: -13.636363636363637px; left: 13.636363636363637px; transform: rotate(45deg);"
+                />
+                <span
+                  style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.6s infinite ease-in-out; top: -20px; left: 0px;"
+                />
+                <span
+                  style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.72s infinite ease-in-out; top: -13.636363636363637px; left: -13.636363636363637px; transform: rotate(-45deg);"
+                />
+                <span
+                  style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.84s infinite ease-in-out; top: 0px; left: -20px; transform: rotate(90deg);"
+                />
+                <span
+                  style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.96s infinite ease-in-out; top: 13.636363636363637px; left: -13.636363636363637px; transform: rotate(45deg);"
+                />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <header
+        class="header flex"
+      >
+        <div
+          class="logo-header flex"
+        >
+          <div
+            class="logo flex"
+          >
+            <span
+              class="back"
+            >
+              <span
+                class="back-txt white"
+              >
+                <img
+                  alt="Logo"
+                  class="logo"
+                  src="logo_crypto.png"
+                />
+              </span>
+            </span>
+          </div>
+        </div>
+        <div
+          class="right-side flex"
+        >
+          <span
+            class="audio"
+          >
+            <i
+              aria-hidden="true"
+              class="fa fa-microphone"
+            />
+          </span>
+          <span
+            class="settings"
+          >
+            <i
+              aria-hidden="true"
+              class="fa fa-cog"
+            />
+          </span>
+        </div>
+      </header>
+      <div
+        class="cryptos-container"
+      >
+        <div
+          class="wrapper flex"
+        >
+          <div
+            class="bg-wrapper"
+          />
+          <div
+            class="wrapper-content p-two"
+          >
+            <h4
+              class="white left h-one"
+            >
+              CYRPTO CURRENCIES
+            </h4>
+            <p
+              class="white left"
+            >
+               
+              Cyrptos
+            </p>
+          </div>
+        </div>
+        <div
+          class="search"
+        >
+          <input
+            name="search"
+            placeholder="Search..."
+            type="text"
+            value=""
+          />
+        </div>
+        <h4
+          class="white p-two"
+        >
+          CRYPTO CURRENCY STATS
+        </h4>
+        <p
+          class="search-msg"
+        >
+          No Cyrptos Found.
+        </p>
+        <div
+          class="crypto-details flex"
+        >
+          <div>
+            <div
+              class="load-spinner"
+            >
+              <span
+                size="500"
+                style="display: inherit; position: relative; font-size: 0px; top: 20px; left: 20px; width: 60px; height: 60px;"
+              >
+                <span
+                  style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.12s infinite ease-in-out; top: 20px; left: 0px;"
+                />
+                <span
+                  style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.24s infinite ease-in-out; top: 13.636363636363637px; left: 13.636363636363637px; transform: rotate(-45deg);"
+                />
+                <span
+                  style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.36s infinite ease-in-out; top: 0px; left: 20px; transform: rotate(90deg);"
+                />
+                <span
+                  style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.48s infinite ease-in-out; top: -13.636363636363637px; left: 13.636363636363637px; transform: rotate(45deg);"
+                />
+                <span
+                  style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.6s infinite ease-in-out; top: -20px; left: 0px;"
+                />
+                <span
+                  style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.72s infinite ease-in-out; top: -13.636363636363637px; left: -13.636363636363637px; transform: rotate(-45deg);"
+                />
+                <span
+                  style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.84s infinite ease-in-out; top: 0px; left: -20px; transform: rotate(90deg);"
+                />
+                <span
+                  style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.96s infinite ease-in-out; top: 13.636363636363637px; left: -13.636363636363637px; transform: rotate(45deg);"
+                />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <header
+      class="header flex"
+    >
+      <div
+        class="logo-header flex"
+      >
+        <div
+          class="logo flex"
+        >
+          <span
+            class="back"
+          >
+            <span
+              class="back-txt white"
+            >
+              <img
+                alt="Logo"
+                class="logo"
+                src="logo_crypto.png"
+              />
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class="right-side flex"
+      >
+        <span
+          class="audio"
+        >
+          <i
+            aria-hidden="true"
+            class="fa fa-microphone"
+          />
+        </span>
+        <span
+          class="settings"
+        >
+          <i
+            aria-hidden="true"
+            class="fa fa-cog"
+          />
+        </span>
+      </div>
+    </header>
+    <div
+      class="cryptos-container"
+    >
+      <div
+        class="wrapper flex"
+      >
+        <div
+          class="bg-wrapper"
+        />
+        <div
+          class="wrapper-content p-two"
+        >
+          <h4
+            class="white left h-one"
+          >
+            CYRPTO CURRENCIES
+          </h4>
+          <p
+            class="white left"
+          >
+             
+            Cyrptos
+          </p>
+        </div>
+      </div>
+      <div
+        class="search"
+      >
+        <input
+          name="search"
+          placeholder="Search..."
+          type="text"
+          value=""
+        />
+      </div>
+      <h4
+        class="white p-two"
+      >
+        CRYPTO CURRENCY STATS
+      </h4>
+      <p
+        class="search-msg"
+      >
+        No Cyrptos Found.
+      </p>
+      <div
+        class="crypto-details flex"
+      >
+        <div>
+          <div
+            class="load-spinner"
+          >
+            <span
+              size="500"
+              style="display: inherit; position: relative; font-size: 0px; top: 20px; left: 20px; width: 60px; height: 60px;"
+            >
+              <span
+                style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.12s infinite ease-in-out; top: 20px; left: 0px;"
+              />
+              <span
+                style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.24s infinite ease-in-out; top: 13.636363636363637px; left: 13.636363636363637px; transform: rotate(-45deg);"
+              />
+              <span
+                style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.36s infinite ease-in-out; top: 0px; left: 20px; transform: rotate(90deg);"
+              />
+              <span
+                style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.48s infinite ease-in-out; top: -13.636363636363637px; left: 13.636363636363637px; transform: rotate(45deg);"
+              />
+              <span
+                style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.6s infinite ease-in-out; top: -20px; left: 0px;"
+              />
+              <span
+                style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.72s infinite ease-in-out; top: -13.636363636363637px; left: -13.636363636363637px; transform: rotate(-45deg);"
+              />
+              <span
+                style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.84s infinite ease-in-out; top: 0px; left: -20px; transform: rotate(90deg);"
+              />
+              <span
+                style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.96s infinite ease-in-out; top: 13.636363636363637px; left: -13.636363636363637px; transform: rotate(45deg);"
+              />
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

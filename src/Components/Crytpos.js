@@ -84,14 +84,15 @@ const Crytpos = () => {
       <div className="search">
         <input
           type="text"
-          placeholder="Search Cryptos"
-          onChange={handleSearch}
+          name="search"
           value={search}
+          onChange={handleSearch}
+          placeholder="Search..."
         />
       </div>
       <h4 className="white p-two">CRYPTO CURRENCY STATS</h4>
       <p className="search-msg">
-        {!searchResults.length ? 'No Cyrptos Found.' : `${searchResults.length} Crypos Found.`}
+        {!searchResults.length ? 'No Cyrptos Found.' : `${searchResults.length} Cryptos Found.`}
       </p>
       <div className="crypto-details flex">
         {cryptosArr[0] ? cryptosArr[0].map((i) => (
