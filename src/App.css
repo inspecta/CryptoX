@@ -1,8 +1,385 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Roboto+Slab:wght@100;200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;600&display=swap");
+
 * {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: 0 10px 10px 5px rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color2);
+  border-radius: 10px;
+  border: 1px solid rgb(255, 255, 255, 0.4);
+}
+
+:root {
+  --color1: #4369b1;
+  --color2: #5687e3;
+}
+
+.white {
+  color: #fff;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.p-one {
+  padding: 5px;
+}
+
+.p-two {
+  padding: 20px;
+}
+
+.left {
+  text-align: left;
+}
+
+.h-one {
+  font-weight: bold;
+}
+
+.font-2 {
+  font-family: "Roboto Slab", serif;
+}
+
+.font-3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+
+.font-4 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
 }
 
 body {
-  background: rgb(180, 180, 180);
+  background-color: var(--color1);
+}
+
+.search-field {
+  width: 100%;
+  outline: 0;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.header {
+  width: 100%;
+  justify-content: space-between;
+  border: 1px solid var(--color1);
+  border-radius: 5px;
+  margin: auto;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.5);
+}
+
+.header-detail {
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid var(--color1);
+  padding: 10px;
+}
+
+.logo-header-detail {
+  width: 70%;
+  justify-content: space-between;
+}
+
+.fa {
+  color: #fff;
+  cursor: pointer;
+  font-size: 50px;
+}
+
+.right-side {
+  gap: 10px;
+  padding: 10px;
+  justify-content: flex-end;
+}
+
+.logo-header {
+  padding: 10px;
+  gap: 5px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 50%;
+  border-radius: 10px;
+}
+
+.fa-chevron-left {
+  padding-right: 10px;
+}
+
+.home-heading {
+  align-items: center;
+}
+
+.wrapper {
+  background: var(--color1);
+  flex-basis: 12em;
+  width: 100%;
+  height: 10em;
+}
+
+.wrapper2 {
+  background: var(--color1);
+  flex-basis: 12em;
+  width: 100%;
+  height: 10em;
+}
+
+.bg-wrapper {
+  background: url("./images/diversification.png") no-repeat center;
+  background-size: contain;
+  flex-basis: 12em;
+  width: 100%;
+  border-radius: 6px;
+  height: 100px;
+  opacity: 0.5;
+  flex-grow: 1;
+}
+
+.bg-wrapper2 {
+  background: url("./images/cryptocurrency.png") no-repeat center;
+  background-size: contain;
+  flex-basis: 12em;
+  width: 100%;
+  border-radius: 6px;
+  height: 100px;
+  opacity: 0.5;
+}
+
+.wrapper-content {
+  width: 50%;
+  background: #5687e357;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.wrapper-content-2 {
+  width: 50%;
+  background: #5687e357;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.crypto-details {
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+  flex: 1;
+}
+
+.crypto-details > button:nth-child(4n + 0),
+.crypto-details > button:nth-child(4n + 1) {
+  background: #4167ae;
+}
+
+.crypto-details > button:nth-child(4n + 2),
+.crypto-details > button:nth-child(4n + 3) {
+  background: #4d76c2;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 50%;
+  outline: 0;
+  border: 0;
+  height: 170px;
+  cursor: pointer;
+}
+
+tr > td > p {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 20px 10px 20px;
+  background: #00be3f;
+  border-radius: 5px;
+  border: 0;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+tr > td > p > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+tr {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+td {
+  padding: 20px;
+}
+
+tr > td:nth-child(1) {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+tr:nth-child(odd) {
+  background: #4c73bb;
+}
+
+tr:nth-child(even) {
+  background: #3f62a4;
+}
+
+.crypto-name {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.crypto-name > p {
+  text-align: right;
+}
+
+.crypto-info {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.price,
+.change {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.symbol {
+  padding-left: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.rank {
+  font-family: "Roboto Slab", serif;
+}
+
+.status {
+  padding: 5px;
+}
+
+.fa-caret-up {
+  color: rgb(0, 255, 0);
+  padding-left: 5px;
+}
+
+.fa-caret-down {
+  color: red;
+  padding-left: 5px;
+}
+
+.load-spinner {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.search {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border-bottom: 1px solid rgb(0, 255, 0, 0.5);
+  border-top: 1px solid rgb(0, 255, 0, 0.5);
+}
+
+.search > input {
+  padding: 10px;
+  border-radius: 0;
+  border: none;
+  outline: none;
+  width: 60%;
+  margin: auto;
+}
+
+.search > input::placeholder {
+  color: var(--color2);
+}
+
+.search-msg {
+  display: none;
+  padding: 10px;
+  width: 80%;
+  margin: auto;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.failure {
+  background: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.success {
+  background: #00be3f;
+  color: #fff;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .header,
+  .header-detail {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .logo-header,
+  .right-side,
+  .logo-header-detail {
+    flex-grow: 1;
+  }
+
+  .wrapper {
+    width: 100%;
+  }
+
+  .bg-wrapper,
+  .bg-wrapper2 {
+    flex-grow: 1;
+  }
+
+  .tr > td > p:hover {
+    background: #004216;
+  }
 }
